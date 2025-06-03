@@ -1,0 +1,27 @@
+h1{color: green;
+font-family: Arial, Helvetica, sans-serif;}
+p{color: coral;
+}
+ul{list-style-type:circle;}
+ol{
+  list-style-type: upper-roman;
+background-color: rgb(190, 227, 241);
+padding:16px 30px;
+border-radius: 25px;
+box-shadow:0 4px 20px rgba(0, 0, 0, 0.1);
+margin: 32px;
+text-align: center;
+animation: fadein 1s ease-out forwards;
+width: 30%;
+margin-left: 0px; 
+}
+
+
+  body {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  }
+  ol:hover{transform: scale3d(1.2);
+  box-shadow:gray;
+background-color: blue;
+color: black;}
+
